@@ -107,10 +107,14 @@ header{
     background-position:center;
 }
 
-#hero-content{
-    width:80%;
+.hero-content{
+    width:100%;
 }
-
+.hero-content h1{
+    color:#e8f1f3;
+    font-size:10px;
+    margin-bottom:15px;
+}
 #hero h4{
     color:#38BDF8;
     font-size:24px;
@@ -121,6 +125,7 @@ header{
     font-size:65px;
     margin-bottom:25px;
 }
+
 
 #hero p{
     width:70%;
@@ -219,26 +224,39 @@ HUBS
 
 .hub-card{
 
-    background:rgba(255,255,255,.08);
-    border:1px solid rgba(255,255,255,.15);
-    backdrop-filter:blur(10px);
-    border-radius:20px;
-    padding:35px;
-    text-align:center;
-    transition:.4s;
+    background: rgba(255,255,255,.08);
+    border: 1px solid rgba(255,255,255,.15);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    cursor: pointer;
+
+    transition: transform .4s ease,
+                background .4s ease,
+                box-shadow .4s ease;
 
 }
 
 .hub-card:hover{
 
-    transform:translateY(-12px);
-    background:#2563EB;
+    transform: translateY(-15px);
+    background: #2563EB;
+    box-shadow: 0 20px 40px rgba(37,99,235,.4);
 
 }
 
 .hub-card h3{
 
-    margin-bottom:15px;
+    margin-bottom: 15px;
+    font-size: 24px;
+
+}
+
+.hub-card p{
+
+    color: #CBD5E1;
+    line-height: 1.6;
 
 }
 

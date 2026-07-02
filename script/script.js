@@ -72,3 +72,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 
 });
+//Header Text Animation
+let text = "Innovation Hub Association";
+let i = 0;
+
+setInterval(() => {
+    if (i < text.length) {
+        document.getElementById("title").innerHTML += text[i];
+        i++;
+    }
+}, 100);
