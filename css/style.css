@@ -627,7 +627,7 @@ TEAM
     border-radius:10%;
     margin:0 auto 20px;
     border:4px solid var(--accent);
-    transition:transform 5s ease, border-color 5s ease;
+    transition:transform .3s ease, border-color .3s ease;
 }
 
 .team-card:hover .team-image{
