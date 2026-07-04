@@ -609,9 +609,9 @@ TEAM
     border-radius:20px;
     text-align:center;
     cursor:pointer;
-    transition:transform .10s ease,
-               box-shadow .10s ease,
-               background .10s ease;
+    transition:transform .5s ease,
+               box-shadow .5s ease,
+               background .5s ease;
 }
 
 .team-card:hover{
